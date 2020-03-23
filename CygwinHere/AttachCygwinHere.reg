@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\directory\background\shell\git_shell_style_cygwin_shell]
+@="Cygwin Ba&sh Here"
+"Extended"=""
+"Icon"="C:\\Cygwin64\\Cygwin-Terminal.ico"
+
+[HKEY_CLASSES_ROOT\directory\background\shell\git_shell_style_cygwin_shell\command]
+@="\"C:\\Cygwin64\\bin\\mintty.exe\" -i \"/Cygwin-Terminal.ico\" --dir \"%V.\" -e /bin/env CHERE_INVOKING=1 /bin/bash --login"
+
+[HKEY_CLASSES_ROOT\directory\shell\git_shell_style_cygwin_shell]
+@="Cygwin Ba&sh Here"
+"Extended"=""
+"Icon"="C:\\Cygwin64\\Cygwin-Terminal.ico"
+
+[HKEY_CLASSES_ROOT\directory\shell\git_shell_style_cygwin_shell\command]
+@="\"C:\\Cygwin64\\bin\\mintty.exe\" -i \"/Cygwin-Terminal.ico\" --dir \"%1\" -e /bin/env CHERE_INVOKING=1 /bin/bash --login"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\git_shell_style_cygwin_shell]
+@="Cygwin Ba&sh Here"
+"Extended"=""
+"Icon"="C:\\Cygwin64\\Cygwin-Terminal.ico"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\git_shell_style_cygwin_shell\command]
+@="\"C:\\Cygwin64\\bin\\mintty.exe\" -i \"/Cygwin-Terminal.ico\" --dir \"%V.\" -e /bin/env CHERE_INVOKING=1 /bin/bash --login"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\git_shell_style_cygwin_shell]
+@="Cygwin Ba&sh Here"
+"Extended"=""
+"Icon"="C:\\Cygwin64\\Cygwin-Terminal.ico"
+
+[HKEY_CLASSES_ROOT\Drive\shell\git_shell_style_cygwin_shell\command]
+@="\"C:\\Cygwin64\\bin\\mintty.exe\" -i \"/Cygwin-Terminal.ico\" --dir \"%V.\" -e /bin/env CHERE_INVOKING=1 /bin/bash --login"
+

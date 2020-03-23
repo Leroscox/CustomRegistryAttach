@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\directory\background\shell\cmd_attach]
+
+[-HKEY_CLASSES_ROOT\directory\shell\cmd_attach]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\cmd_attach]
+
